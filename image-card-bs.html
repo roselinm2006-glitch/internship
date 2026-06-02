@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Card Overlay</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card text-white border-0 overflow-hidden">
+                    <img src="image/pic.jpg" class="card-img" alt="Card image"
+                        style="height: 400px; object-fit: cover;">
+
+                    <div class="card-img-overlay d-flex align-items-end"
+                        style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 2rem;">
+                        <h2 class="fw-bold w-100" style="margin: 0;">
+                            Short title, long jacket
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-white border-0 overflow-hidden">
+                    <img src="image/lake.jpg" class="card-img" alt="Lake image"
+                        style="height: 400px; object-fit: cover;">
+
+                    <div class="card-img-overlay d-flex align-items-end"
+                        style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 2rem;">
+                        <h2 class="fw-bold w-100" style="margin: 0;">
+                            Much longer title that wraps
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-white border-0 overflow-hidden">
+                    <img src="image/river.jpg" class="card-img" alt="River image"
+                        style="height: 400px; object-fit: cover;">
+
+                    <div class="card-img-overlay d-flex align-items-end"
+                        style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 2rem;">
+                        <h2 class="fw-bold w-100" style="margin: 0;">
+                            Another longer title belongs here
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
